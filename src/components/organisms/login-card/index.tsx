@@ -55,7 +55,7 @@ const LoginCard: React.FC<LoginCardProps> = ({ toResetPassword }) => {
           </span>
         )}
         <Button
-          className="rounded-rounded mt-4 w-[320px] inter-base-regular"
+          className="rounded-rounded mt-4 max-w-[320px] w-full inter-base-regular"
           variant="primary"
           style={{
             background:'rgb(146, 222, 237)'
