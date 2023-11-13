@@ -78,8 +78,11 @@ const ResetTokenCard: React.FC<ResetTokenCardProps> = ({ goBack }) => {
               </div>
             )}
             <button
-              className="text-grey-0 w-[320px] h-[48px] border rounded-rounded mt-4 bg-violet-50 inter-base-regular py-3 px-4"
+              className="text-grey-0 w-[320px] h-[48px] border rounded-rounded mt-4  inter-base-regular py-3 px-4"
               type="submit"
+              style={{
+                background:'rgb(146, 222, 237)'
+              }}
             >
               Send reset instructions
             </button>
