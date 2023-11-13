@@ -34,15 +34,8 @@ const LoginCard: React.FC<LoginCardProps> = ({ toResetPassword }) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="flex flex-col items-center">
-        <span className="inter-2xlarge-semibold mt-4 text-grey-90">
-       
-Vitaj späť!
-        </span>
-        <span className="inter-base-regular text-grey-50 mt-2">
-          
-Je skvelé ťa vidieť 👋🏼
-        </span>
-        <span className="inter-base-regular text-grey-50 mb-xlarge">
+
+        <span className="inter-base-regular text-grey-50 mb-xlarge mt-4">
         Prihlásiť sa do adminu
         </span>
         <SigninInput
@@ -64,6 +57,9 @@ Je skvelé ťa vidieť 👋🏼
         <Button
           className="rounded-rounded mt-4 w-[320px] inter-base-regular"
           variant="primary"
+          style={{
+            background:'rgb(146, 222, 237)'
+          }}
           size="large"
           type="submit"
           loading={login.isLoading}

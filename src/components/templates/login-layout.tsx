@@ -7,7 +7,7 @@ const LoginLayout = ({ children }) => {
         <div
           className="flex flex-col items-center"
           style={{
-            background: "linear-gradient(73.29deg, #7C53FF 0%, #F796FF 100%)",
+            background: 'linear-gradient(73.29deg, rgb(146, 222, 237), rgb(17, 16, 43))',
           }}
         >
           {children}
@@ -15,7 +15,7 @@ const LoginLayout = ({ children }) => {
             © Wavenet <span>&#183;</span>{" "}
             <a
               style={{ color: "inherit", textDecoration: "none" }}
-              href="mailto:hello@wavenet.sk"
+              href="mailto:info@wavenet.sk"
             >
               Contact
             </a>

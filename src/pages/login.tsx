@@ -15,7 +15,7 @@ const LoginPage = () => {
       <div className="flex h-full w-full items-center justify-center">
         <div
           className={clsx(
-            "flex min-h-[600px] w-[640px] bg-grey-0 rounded-rounded justify-center transition-['min-height'] duration-300",
+            "flex min-h-[450px] w-[640px] bg-grey-0 rounded-rounded justify-center transition-['min-height'] duration-300",
             {
               "min-h-[480px]": resetPassword,
             }
